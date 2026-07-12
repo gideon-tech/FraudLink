@@ -1,0 +1,1 @@
+export { indicatorRepository } from './resourceRepositories'

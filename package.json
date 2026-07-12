@@ -5,6 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:backend": "python3 -m uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000",
+    "test:backend": "PYTHONPATH=. .venv/bin/pytest -q",
+    "test:frontend": "node --test tests/frontend-domain.test.mjs",
+    "test": "npm run test:frontend && npm run test:backend",
     "build": "vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",

@@ -1,0 +1,1 @@
+export { intelligenceRepository } from './resourceRepositories'

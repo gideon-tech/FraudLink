@@ -1,0 +1,1 @@
+export { institutionRepository } from './resourceRepositories'

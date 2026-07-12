@@ -1,0 +1,1 @@
+export { reportRepository } from './resourceRepositories'

@@ -28,3 +28,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .DS_Store
+.venv/
+*.db
+__pycache__/
+.pytest_cache/
